@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    text-align: center;
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+#input-container {
+    justify-content: center;
+    background-color: rgb(215, 15, 215);
+    padding: 30px 10px;
+    color: white;
+    font-size: 22px;
+}
+.title {
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+
+.subtitle {
+    font-size: 22px;
+}
+
+input {
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    width: 150px;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 900;
+    color: rgb(0, 0, 0, 0.6);
+}
+
+#readout-div {
+    background-color: #f5a5e9;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.unit-div {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255, 0.6);
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: -0.6px;
+    height: 100px;
+}
+
+#readout-div:last-child {
+    margin-bottom: 0;
+    padding-bottom: 1px;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: #f5a5e9;
+    }
+    .unit-div {
+        padding: 0 10px;
+    }
+}
